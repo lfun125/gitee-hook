@@ -1,0 +1,10 @@
+listen: :13000 # 服务启动端口
+jenkins_url: http://jenkins.demo.com # Jenkins地址
+jenkins_user: "" # 授权用户
+jenkins_user_token: "" # 授权用户的token
+jenkins_project_token: "" # 项目触发发布token
+gitee_secret: "" # gitee密钥
+repository:
+  group/project_name:
+    branches:
+      dev: jenkins_project_name
